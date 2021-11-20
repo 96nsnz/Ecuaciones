@@ -94,7 +94,4 @@ boton = tk.Button(ventana, text="Resolver",bg = "#9AE66E", fg="Black", command=r
 boton.place(x=70, y=315, width=250, height=35)
 boton = tk.Button(ventana, text="Borrar",bg = "#FF6D6D", fg="Black", command=Limpiar)
 boton.place(x=380, y=315, width=250, height=35)
-
-t10 = tk.Label(ventana, text='Luis Gonzalez Kevin Ivan', bg = "#66806A", fg="#142F43")
-t10.place(x=520, y=480, width=150, height=20)
 ventana.mainloop()
